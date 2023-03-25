@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Magic with Image</title>
+
+</head>
+
+<body>
+    <h2>Adding Image </h2>
+    <div class="input-section">
+        <label for="image-input" class="upload-btn">
+          <span>Select Image</span>
+        </label>
+        <input type="file" id="image-input" class="file-input">
+      </div>
+      
+    <div id="img"></div>
+    <button id="popup-btn">Open Pop-up</button>
+
+    <div id="popup-overlay">
+        <div id="popup-content">
+            <h2>choose image shape </h2>
+            <div class="image-section">
+                <img src="./asset/user_image_frame_1.png" class="images">
+                <img src="./asset/user_image_frame_2.png" class="images">
+                <img src="./asset/user_image_frame_3.png" class="images">
+                <img src="./asset/user_image_frame_4.png" class="images">
+            </div>
+            <button id="close-btn">close</button>
+        </div>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+</html>
